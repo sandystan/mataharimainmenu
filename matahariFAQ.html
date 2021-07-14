@@ -98,7 +98,7 @@
 
         }
 
-        function  onclick="Pengembalian()" {
+        function Pengembalian (){
             window.parent.postMessage(
                 JSON.stringify({
                     event_code: "ym-client-event",
@@ -109,30 +109,7 @@
 
         }
 
-        function  onclick="Pengiriman()" {
-            window.parent.postMessage(
-                JSON.stringify({
-                    event_code: "ym-client-event",
-                    data: "How To Make A Payment With Coins ph"
-                }),
-                "*"
-            );
-
-        }
-
-
-       function  onclick="faq()" {
-            window.parent.postMessage(
-                JSON.stringify({
-                    event_code: "ym-client-event",
-                    data: "How To Make A Payment With Coins ph"
-                }),
-                "*"
-            );
-
-        }
-
-        function  onclick="mata()" {
+        function  Pengiriman() {
             window.parent.postMessage(
                 JSON.stringify({
                     event_code: "ym-client-event",
@@ -144,7 +121,7 @@
         }
 
 
-     function  onclick="akun()" {
+       function  faq(){
             window.parent.postMessage(
                 JSON.stringify({
                     event_code: "ym-client-event",
@@ -155,7 +132,30 @@
 
         }
 
-        function  onclick="info()" {
+        function  mata(){
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How To Make A Payment With Coins ph"
+                }),
+                "*"
+            );
+
+        }
+
+
+     function  akun(){
+            window.parent.postMessage(
+                JSON.stringify({
+                    event_code: "ym-client-event",
+                    data: "How To Make A Payment With Coins ph"
+                }),
+                "*"
+            );
+
+        }
+
+        function  info() {
             window.parent.postMessage(
                 JSON.stringify({
                     event_code: "ym-client-event",
